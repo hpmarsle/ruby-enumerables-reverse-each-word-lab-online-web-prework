@@ -4,7 +4,10 @@ def reverse_each_word(sentence)
   
   reversed_array = []
   i = 0 
-  reversed_array << changed_to_array.each{|word| word.reverse}
+  changed_to_array.each do |word| 
+    rword = word.reverse
+    reversed_array << rword
+  end
 
   # #loop through array and reverse each word 
   # i = 0 
