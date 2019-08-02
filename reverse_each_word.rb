@@ -2,8 +2,8 @@ def reverse_each_word(sentence)
  #reversing each word in the string using .collect enumerable
   reversed_array = sentence.split.collect{|word| word.reverse}
   
-  #reversing each word in the string using .each enumerable
-  #.each returns the original array, so you need to append each
+  # reversing each word in the string using .each enumerable
+  # .each returns the original array, so you need to append each
   # reversed word to a new array and not count on the original array that .each returns to 
   changed_to_array = sentence.split(' ')
   reversed_array = []
