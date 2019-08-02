@@ -8,8 +8,9 @@ def reverse_each_word(sentence)
     rword = word.reverse
     reversed_array << rword
   end
-  reversed_sentence = reversed_array.join(' ')
-  reversed_sentence
+  reversed_array.join(' ')
+  # reversed_sentence = reversed_array.join(' ')
+  # reversed_sentence
   
   # i = 0 
   # reversed_array = []
