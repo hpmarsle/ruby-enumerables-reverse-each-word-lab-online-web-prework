@@ -8,8 +8,9 @@ def reverse_each_word(sentence)
     rword = word.reverse
     reversed_array << rword
   end
-
-  # #loop through array and reverse each word 
+  reversed_sentence = reversed_array.join(' ')
+  reversed_sentence
+  
   # i = 0 
   # reversed_array = []
   # while i < changed_to_array.length do
@@ -17,11 +18,4 @@ def reverse_each_word(sentence)
   #   i += 1
   # end
   # # 
-  reversed_sentence = reversed_array.join(' ')
-  reversed_sentence
-  # #end
 end
-
-#(sentence, )
-# >> ['a', 'b', 'c'].collect{word| word.reverse}
-# => ["A", "B", "C"]
